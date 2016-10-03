@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "monolog/monolog": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+          "config\\": "config/",
+          "controllers\\": "controllers/",
+          "models\\": "models/"
+        }
+    }
+}
