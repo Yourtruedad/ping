@@ -33,6 +33,7 @@ class users extends main {
      * @apiDescription Setting up a new user account.
      * @apiName POST /user
      * @apiGroup Users
+     * @apiVersion 0.1.0
      *
      * @apiParam {String} email Mandatory email address.
      * @apiParam {String} password Mandatory password.
@@ -160,6 +161,7 @@ class users extends main {
      * @apiDescription Getting user details.
      * @apiName GET /user
      * @apiGroup Users
+     * @apiVersion 0.1.0
      *
      * @apiParam {String} apikey User Api Key.
      *
@@ -204,6 +206,7 @@ class users extends main {
      * @apiDescription Getting Api Key with account credentials.
      * @apiName POST /user/authenticate
      * @apiGroup Users
+     * @apiVersion 0.1.0
      *
      * @apiParam {String} email Mandatory email address.
      * @apiParam {String} password Mandatory password.
